@@ -1,0 +1,37 @@
+.readings{
+    width: 50vw;
+    margin: 20px auto;
+    border: 1px solid #e9ebee;
+    padding: 24px;
+    border-radius: 10px;
+    background-color: #73a9ff;
+}
+.threads{
+    font-size: 25px;
+    color: #252525;
+}
+.article{
+    text-indent: 50px;
+    font-size: 20px;
+    margin-top: 24px;
+    color: #3b3b3b;
+    word-break: normal;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .readings{
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    .readings{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .readings{
+        width: 90vw;
+    }
+}

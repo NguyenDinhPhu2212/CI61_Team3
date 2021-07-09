@@ -1,0 +1,26 @@
+.vocabulary {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgb(255, 251, 0);
+}
+.vocabulary h3{
+    font-size: 25px;
+    position: relative;
+}
+.vocabulary h3::before{
+    position: absolute;
+    bottom: 0%;
+    content: "";
+    height: 4px;
+    width: 200px;
+    background-color: rgb(255, 251, 0);
+}
+.vocabulary .container{
+    font-style: italic;
+}
+.vocabulary .container > *{
+    margin: 10px auto
+}

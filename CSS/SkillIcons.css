@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skill-icon {
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.1 ease;
+}
+.skill-icon .skill-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: contain;
+    opacity: 1;
+    filter:contrast(140%);
+    border: 1px solid rgb(197, 197, 197);
+}
+.skill-icon .complete {
+    color: rgb(0, 255, 21);
+    font-size: 120px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .skill-icon .skill-image {
+        width: 105px;
+        height: 105px;
+    }
+    .skill-icon .complete {
+        font-size: 70px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url("./CSS/Lesson.css");
+@import url("./CSS/SkillIcons.css");
+@import url("./CSS/LearningProgress.css");
+@import url("./CSS/AudioBar.css");
+@import url("./CSS/Readings.css");
+@import url("./CSS/ReadingSkill.css");
+@import url("./CSS/WritingSkill.css");
+@import url("./CSS/MessageBox.css");
+@import url("./CSS/AnswerForm.css");
+@import url("./CSS/Vocabulary.css");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap");
+* {
+    font-family: "Crimson Text", serif;
+}
+.lesson-page{
+    background-color: rgb(208, 246, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

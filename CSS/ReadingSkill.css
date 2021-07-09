@@ -1,0 +1,51 @@
+.reading-skill > div {
+    width: 80vw;
+    height: 100%;
+    margin: 20px auto;
+    background-color: rgb(199, 235, 255);
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.reading-skill .header {
+    margin: 20px auto;
+}
+.reading-skill .header > * {
+    text-align: center;
+}
+.reading-skill .header .numberLesson {
+    margin: 20px auto;
+    margin-left: calc(40vw - 6vh);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vh;
+    height: 14vh;
+    font-size: 10vh;
+    color: rgb(255, 196, 0);
+    border: 4px solid rgb(255, 48, 48);
+    border-radius: 50%;
+}
+.reading-skill .header .lessonName {
+    color: balck;
+    font-size: 50px;
+}
+.reading-skill .header div:nth-child(3) {
+    font-size: 30px;
+    color: #696969;
+}
+.done-btn {
+    margin: 20px auto;
+    width: 200px;
+    height: 48px;
+    background-color: #00b118;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.done-btn:hover{
+    background-color: #00da1d;
+}

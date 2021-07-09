@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.learning-progress {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    width: 60vw;
+    height: 45vh;
+    font-size: 25px;
+    border: 2px solid rgb(255, 215, 0);
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: white;
+}
+.learning-progress .image {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    filter: contrast(140%);
+}
+.progress-container {
+    color: rgb(27, 27, 27);
+    padding: 20px 20px;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.progress {
+    width: 400px;
+    height: 14px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-right: 5px;
+}
+.progress .completed {
+    background-color: rgb(255, 215, 0);
+    height: 14px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    .learning-progress {
+        font-size: 24px;
+        width: 80vw;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .learning-progress {
+        font-size: 22px;
+        width: 80vw;
+        height: 30vh;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .learning-progress {
+        font-size: 20px;
+    }
+    .progress {
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .learning-progress {
+        font-size: 18px;
+        height: 25vh;
+        padding: 2px 2px;
+        width: 90vw;
+    }
+    .progress {
+        width: 200px;
+    }
+    .learning-progress .image {
+        display: none;
+    }
+}
